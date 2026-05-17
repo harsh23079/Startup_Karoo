@@ -100,6 +100,14 @@ export function Footer() {
                                     Terms & Conditions
                                 </Link>
                             </li>
+                            <li>
+                                <Link
+                                    to="/privacy-policy"
+                                    className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm"
+                                >
+                                    Privacy Policy
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 

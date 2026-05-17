@@ -26,6 +26,7 @@ import PlaylistGrid from "./pages/Creators/PlaylistGrid";
 import VideoPlayer from "./pages/Creators/VideoPlayer";
 import FeedPage from "./pages/FeedPage";
 import AboutPage from "./pages/AboutPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import { ScrollToTop } from "./components/ScrollToTop";
 import CreatorsPage from "./pages/HomeLevels/CreatorsPage";
 
@@ -107,6 +108,7 @@ function App() {
                         <Route path="/reel" element={<ReelPage />} />
                         <Route path="/login" element={<LoginPage />} />
                         <Route path="/about" element={<AboutPage />} />
+                        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
                     </Routes>
                 </main>
                 <FooterWrapper />
